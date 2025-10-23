@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js --"
   },
   "dependencies": {
     "commander": "^12.0.0"
@@ -19,6 +21,8 @@
   "bugs": {
     "url": "https://github.com/Phoenix71727/backend-course-2025-4/issues"
   },
-  "homepage": "https://github.com/Phoenix71727/backend-course-2025-4#readme"
+  "homepage": "https://github.com/Phoenix71727/backend-course-2025-4#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
-
+}

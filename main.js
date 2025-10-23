@@ -38,7 +38,7 @@ const server = http.createServer((request, response) => {
   
   // Ця частина буде реалізована в Частині 2
   response.writeHead(200, { 'Content-Type': 'text/plain' });
-  response.end('Server is running. Part 2 (mtcars logic) is not implemented yet.');
+  response.end('Server is running.');
   
 });
 
